@@ -1,4 +1,5 @@
 {
     "name": "5818959/fakecryptcp",
-    "description": "Simplest cryptcp utility emulator (Linux/OSX)."
+    "description": "Simplest cryptcp utility emulator (Linux/OSX).",
+    "bin": ["fake-cryptcp", "fake-cryptcp-success", "fake-cryptcp-unsuccess"]
 }

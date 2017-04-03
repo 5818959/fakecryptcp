@@ -8,9 +8,9 @@ Setup
 ---
 
 ```sh
-chmod a+x fake-cryptcp.sh
-chmod a+x fake-cryptcp-success.sh
-chmod a+x fake-cryptcp-unsuccess.sh
+chmod a+x fake-cryptcp
+chmod a+x fake-cryptcp-success
+chmod a+x fake-cryptcp-unsuccess
 ```
 
 
@@ -20,29 +20,29 @@ Usage examples
 Get an unsuccessful response:
 
 ```sh
-./fake-cryptcp.sh
+./fake-cryptcp
 ```
 
 or
 
 ```sh
-./fake-cryptcp.sh -f
+./fake-cryptcp -f
 ```
 
 or
 
 ```sh
-./fake-cryptcp-unsuccess.sh
+./fake-cryptcp-unsuccess
 ```
 
 Get a successful response:
 
 ```sh
-./fake-cryptcp.sh -t
+./fake-cryptcp -t
 ```
 
 or
 
 ```sh
-./fake-cryptcp-success.sh
+./fake-cryptcp-success
 ```
